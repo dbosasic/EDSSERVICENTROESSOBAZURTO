@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_608e3947c6ef6d6ae2f600747d38c3ee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_608e3947c6ef6d6ae2f600747d38c3ee" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_608e3947c6ef6d6ae2f600747d38c3ee = L.map(
+                "map_608e3947c6ef6d6ae2f600747d38c3ee",
+                {
+                    center: [10.39972, -75.51444],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bbf9651d184c56468b84b7a2ae539982 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var marker_7430531828a1962b3dcd3b1931c80b0c = L.marker(
+                [10.424298, -75.538349],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_4799b764b3be340268b89dc2bf09e874 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7430531828a1962b3dcd3b1931c80b0c.setIcon(icon_4799b764b3be340268b89dc2bf09e874);
+        
+    
+        var popup_afa39ab733bc04132772c2b569f715e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7973bd9583d2a7804f2f20ce74dad483 = $(`<div id="html_7973bd9583d2a7804f2f20ce74dad483" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO ESSO SAN FELIPE</div>`)[0];
+                popup_afa39ab733bc04132772c2b569f715e6.setContent(html_7973bd9583d2a7804f2f20ce74dad483);
+            
+        
+
+        marker_7430531828a1962b3dcd3b1931c80b0c.bindPopup(popup_afa39ab733bc04132772c2b569f715e6)
+        ;
+
+        
+    
+    
+            var marker_899d340aef8ce6f0bcbffbb25eb574c9 = L.marker(
+                [10.388717, -75.520621],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_87044378bf25ee94b23c9f46ca4bbb3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_899d340aef8ce6f0bcbffbb25eb574c9.setIcon(icon_87044378bf25ee94b23c9f46ca4bbb3f);
+        
+    
+        var popup_2b9a0575ecdc5b4a01a80d1606052842 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccd1febf7ace83b4240acff76d18ab03 = $(`<div id="html_ccd1febf7ace83b4240acff76d18ab03" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO AUTOMOTRIZ MOBIL JUNIN</div>`)[0];
+                popup_2b9a0575ecdc5b4a01a80d1606052842.setContent(html_ccd1febf7ace83b4240acff76d18ab03);
+            
+        
+
+        marker_899d340aef8ce6f0bcbffbb25eb574c9.bindPopup(popup_2b9a0575ecdc5b4a01a80d1606052842)
+        ;
+
+        
+    
+    
+            var marker_b513c4b17659d35f8ccc9ce677f25af9 = L.marker(
+                [10.408219, -75.521304],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_3e1b2972a3de5d38def7da014015260d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b513c4b17659d35f8ccc9ce677f25af9.setIcon(icon_3e1b2972a3de5d38def7da014015260d);
+        
+    
+        var popup_87ee25b41031911630af80be8b63d376 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e91843745b55b0fa60de63bb406a67a = $(`<div id="html_8e91843745b55b0fa60de63bb406a67a" style="width: 100.0%; height: 100.0%;">ESTACION MOBIL EL BOSQUE Y-O JORGE VICARIA Y CIA</div>`)[0];
+                popup_87ee25b41031911630af80be8b63d376.setContent(html_8e91843745b55b0fa60de63bb406a67a);
+            
+        
+
+        marker_b513c4b17659d35f8ccc9ce677f25af9.bindPopup(popup_87ee25b41031911630af80be8b63d376)
+        ;
+
+        
+    
+    
+            var marker_c39cf3b840a4e35202c283be84939291 = L.marker(
+                [10.41625, -75.542868],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_4420f9bc57c130fb5cd8c62df7ddb1fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c39cf3b840a4e35202c283be84939291.setIcon(icon_4420f9bc57c130fb5cd8c62df7ddb1fc);
+        
+    
+        var popup_82d4dfef9f62f8fff8473e7d5c2126b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_946ebe7f7f96a07b492f92d98ecb2a54 = $(`<div id="html_946ebe7f7f96a07b492f92d98ecb2a54" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO TEXACO UBI</div>`)[0];
+                popup_82d4dfef9f62f8fff8473e7d5c2126b5.setContent(html_946ebe7f7f96a07b492f92d98ecb2a54);
+            
+        
+
+        marker_c39cf3b840a4e35202c283be84939291.bindPopup(popup_82d4dfef9f62f8fff8473e7d5c2126b5)
+        ;
+
+        
+    
+    
+            var marker_826ee1ef4085a71a173a6a7644dc9a59 = L.marker(
+                [10.4066357, -75.5049193],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_51ed158495381d78f36047e27b4b0ee3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_826ee1ef4085a71a173a6a7644dc9a59.setIcon(icon_51ed158495381d78f36047e27b4b0ee3);
+        
+    
+        var popup_2f059042c0267ac673a0250c6db5dee1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22869712aedd1c1ff3ca1a11fb5f4e97 = $(`<div id="html_22869712aedd1c1ff3ca1a11fb5f4e97" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO PEDRO DE HEREDIA</div>`)[0];
+                popup_2f059042c0267ac673a0250c6db5dee1.setContent(html_22869712aedd1c1ff3ca1a11fb5f4e97);
+            
+        
+
+        marker_826ee1ef4085a71a173a6a7644dc9a59.bindPopup(popup_2f059042c0267ac673a0250c6db5dee1)
+        ;
+
+        
+    
+    
+            var marker_81322bb8765618a4d6c94e55772a985a = L.marker(
+                [10.4075387, -75.5092189],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_ca51a4ab6f0b2bfcf41903ea19c5e1a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_81322bb8765618a4d6c94e55772a985a.setIcon(icon_ca51a4ab6f0b2bfcf41903ea19c5e1a1);
+        
+    
+        var popup_68cc71a811148f8af673127b77fbf9c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f533cfb463a967459a060a4745ddfbf6 = $(`<div id="html_f533cfb463a967459a060a4745ddfbf6" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO AUTOMOTRIZ AUTOCENTRO LA ESTACION</div>`)[0];
+                popup_68cc71a811148f8af673127b77fbf9c5.setContent(html_f533cfb463a967459a060a4745ddfbf6);
+            
+        
+
+        marker_81322bb8765618a4d6c94e55772a985a.bindPopup(popup_68cc71a811148f8af673127b77fbf9c5)
+        ;
+
+        
+    
+    
+            var marker_916e34ace2f8167170bb92dad60d6a60 = L.marker(
+                [10.406991, -75.52789],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_2810756336bc6c3c50f3d9f676d8681f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_916e34ace2f8167170bb92dad60d6a60.setIcon(icon_2810756336bc6c3c50f3d9f676d8681f);
+        
+    
+        var popup_1a6057c13365b1ce10445c431705969a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb9cb6e26d26e8c63853826c1be893de = $(`<div id="html_eb9cb6e26d26e8c63853826c1be893de" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO ZONA FRANCA</div>`)[0];
+                popup_1a6057c13365b1ce10445c431705969a.setContent(html_eb9cb6e26d26e8c63853826c1be893de);
+            
+        
+
+        marker_916e34ace2f8167170bb92dad60d6a60.bindPopup(popup_1a6057c13365b1ce10445c431705969a)
+        ;
+
+        
+    
+    
+            var marker_95769f0ccb2f9380053cc17d795749dd = L.marker(
+                [10.399359, -75.5561916],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_6c5337925aab9706fa351b625890ec18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_95769f0ccb2f9380053cc17d795749dd.setIcon(icon_6c5337925aab9706fa351b625890ec18);
+        
+    
+        var popup_ed683af0c3832a340f60e2f141b99e3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09ca6929969b8a04e2843730fe2770b5 = $(`<div id="html_09ca6929969b8a04e2843730fe2770b5" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO BOCAGRANDE REAL</div>`)[0];
+                popup_ed683af0c3832a340f60e2f141b99e3d.setContent(html_09ca6929969b8a04e2843730fe2770b5);
+            
+        
+
+        marker_95769f0ccb2f9380053cc17d795749dd.bindPopup(popup_ed683af0c3832a340f60e2f141b99e3d)
+        ;
+
+        
+    
+    
+            var marker_45aebdc3a875b8921649218cde1909b5 = L.marker(
+                [10.388142, -75.502414],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_f9828bd183e0edb8344b8c27f81cb291 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_45aebdc3a875b8921649218cde1909b5.setIcon(icon_f9828bd183e0edb8344b8c27f81cb291);
+        
+    
+        var popup_4abdaff9dda1ca4261b76151066f3c70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c797fc1dcb9d866cc957b9489532be4e = $(`<div id="html_c797fc1dcb9d866cc957b9489532be4e" style="width: 100.0%; height: 100.0%;">ESTACIÓN DE SERVICIOS MOBIL LAS MURALLAS</div>`)[0];
+                popup_4abdaff9dda1ca4261b76151066f3c70.setContent(html_c797fc1dcb9d866cc957b9489532be4e);
+            
+        
+
+        marker_45aebdc3a875b8921649218cde1909b5.bindPopup(popup_4abdaff9dda1ca4261b76151066f3c70)
+        ;
+
+        
+    
+    
+            var marker_3408aaf09e4dbd8e377eabff30371b4b = L.marker(
+                [10.418254, -75.529459],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_6a89eee32be12407ba1559d4075ab64c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3408aaf09e4dbd8e377eabff30371b4b.setIcon(icon_6a89eee32be12407ba1559d4075ab64c);
+        
+    
+        var popup_d07a96a006087f3cb4d42ae0a59e74e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f491dccf00c263e3ccc0dbc8ba3d3f0 = $(`<div id="html_3f491dccf00c263e3ccc0dbc8ba3d3f0" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO PIE DE LA POPA</div>`)[0];
+                popup_d07a96a006087f3cb4d42ae0a59e74e1.setContent(html_3f491dccf00c263e3ccc0dbc8ba3d3f0);
+            
+        
+
+        marker_3408aaf09e4dbd8e377eabff30371b4b.bindPopup(popup_d07a96a006087f3cb4d42ae0a59e74e1)
+        ;
+
+        
+    
+    
+            var marker_6efb15f1908c32f378cc4f4cee886b83 = L.marker(
+                [10.405162, -75.521178],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_5091b0d8c42e10eb447e38174e8a427c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6efb15f1908c32f378cc4f4cee886b83.setIcon(icon_5091b0d8c42e10eb447e38174e8a427c);
+        
+    
+        var popup_a940ca93ede4df43235db93d31373c82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55ee2733948df214b52a7e54ba02d007 = $(`<div id="html_55ee2733948df214b52a7e54ba02d007" style="width: 100.0%; height: 100.0%;">SERVICENTRO ESSO BAZURTO</div>`)[0];
+                popup_a940ca93ede4df43235db93d31373c82.setContent(html_55ee2733948df214b52a7e54ba02d007);
+            
+        
+
+        marker_6efb15f1908c32f378cc4f4cee886b83.bindPopup(popup_a940ca93ede4df43235db93d31373c82)
+        ;
+
+        
+    
+    
+            var marker_71a3b926d1a8687fa036b01e7b6b3e22 = L.marker(
+                [10.38847, -75.516305],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_d16521a54145b59b39bca8eed60f2b49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_71a3b926d1a8687fa036b01e7b6b3e22.setIcon(icon_d16521a54145b59b39bca8eed60f2b49);
+        
+    
+        var popup_a104cab4fee49a5dba180ccc5d1577ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcb91cc6fb4e13556dff43ab28681b31 = $(`<div id="html_fcb91cc6fb4e13556dff43ab28681b31" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO TERPEL LA HEROICA</div>`)[0];
+                popup_a104cab4fee49a5dba180ccc5d1577ed.setContent(html_fcb91cc6fb4e13556dff43ab28681b31);
+            
+        
+
+        marker_71a3b926d1a8687fa036b01e7b6b3e22.bindPopup(popup_a104cab4fee49a5dba180ccc5d1577ed)
+        ;
+
+        
+    
+    
+            var marker_1f404402110205a60ddc6ead08a62e83 = L.marker(
+                [10.421647, -75.541446],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_e14c9395e5fd92b360dda4878f89b1b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1f404402110205a60ddc6ead08a62e83.setIcon(icon_e14c9395e5fd92b360dda4878f89b1b4);
+        
+    
+        var popup_283d61f5332615c1012b5964923c1834 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9b922336d477d8de1c015f1b918bd4a = $(`<div id="html_f9b922336d477d8de1c015f1b918bd4a" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO TERPEL PIE DEL CERRO</div>`)[0];
+                popup_283d61f5332615c1012b5964923c1834.setContent(html_f9b922336d477d8de1c015f1b918bd4a);
+            
+        
+
+        marker_1f404402110205a60ddc6ead08a62e83.bindPopup(popup_283d61f5332615c1012b5964923c1834)
+        ;
+
+        
+    
+    
+            var marker_932646ec163285cc052c0b9e97d6631a = L.marker(
+                [10.406723, -75.4934883],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_b95e8c6df70590e2e76690e91699a80d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_932646ec163285cc052c0b9e97d6631a.setIcon(icon_b95e8c6df70590e2e76690e91699a80d);
+        
+    
+        var popup_3c16f2e8581deeca399bc2cc03b1e2c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d628ebcca286de2e0b41b845c89b0c24 = $(`<div id="html_d628ebcca286de2e0b41b845c89b0c24" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO TERPEL EL TIGRE</div>`)[0];
+                popup_3c16f2e8581deeca399bc2cc03b1e2c2.setContent(html_d628ebcca286de2e0b41b845c89b0c24);
+            
+        
+
+        marker_932646ec163285cc052c0b9e97d6631a.bindPopup(popup_3c16f2e8581deeca399bc2cc03b1e2c2)
+        ;
+
+        
+    
+    
+            var marker_25cd902e09ad35820f69d60b7aa4ed9e = L.marker(
+                [10.400008, -75.521778],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_4db86026a02423d33900a3eb44586113 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25cd902e09ad35820f69d60b7aa4ed9e.setIcon(icon_4db86026a02423d33900a3eb44586113);
+        
+    
+        var popup_fa2c54f7b0c281329b786557a0e8f44d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab068d15985565970b3ceeafa073aca2 = $(`<div id="html_ab068d15985565970b3ceeafa073aca2" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO TERPEL EL BOSQUE</div>`)[0];
+                popup_fa2c54f7b0c281329b786557a0e8f44d.setContent(html_ab068d15985565970b3ceeafa073aca2);
+            
+        
+
+        marker_25cd902e09ad35820f69d60b7aa4ed9e.bindPopup(popup_fa2c54f7b0c281329b786557a0e8f44d)
+        ;
+
+        
+    
+    
+            var marker_65599ec6f7b264d1cfba8bf472a9d913 = L.marker(
+                [10.409353, -75.516315],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_93b1ad4747d5f7a764793d8201de71af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_65599ec6f7b264d1cfba8bf472a9d913.setIcon(icon_93b1ad4747d5f7a764793d8201de71af);
+        
+    
+        var popup_7b40a17cf6b20df88da4341f02a54f5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c863ae3af41307b0bf3cface92ece892 = $(`<div id="html_c863ae3af41307b0bf3cface92ece892" style="width: 100.0%; height: 100.0%;">EDS AUTOBOL</div>`)[0];
+                popup_7b40a17cf6b20df88da4341f02a54f5a.setContent(html_c863ae3af41307b0bf3cface92ece892);
+            
+        
+
+        marker_65599ec6f7b264d1cfba8bf472a9d913.bindPopup(popup_7b40a17cf6b20df88da4341f02a54f5a)
+        ;
+
+        
+    
+    
+            var marker_e76e710ad8b4e7bb2dae9adba6964421 = L.marker(
+                [10.42054, -75.531196],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_b81dd93627933fe04ff05cf1f0b5789c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e76e710ad8b4e7bb2dae9adba6964421.setIcon(icon_b81dd93627933fe04ff05cf1f0b5789c);
+        
+    
+        var popup_03f511e12f0d78849f0c8942189ac909 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a72d030ccba1dfee1be7f2613556278 = $(`<div id="html_9a72d030ccba1dfee1be7f2613556278" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO DISTRACOM LA CANDELARIA</div>`)[0];
+                popup_03f511e12f0d78849f0c8942189ac909.setContent(html_9a72d030ccba1dfee1be7f2613556278);
+            
+        
+
+        marker_e76e710ad8b4e7bb2dae9adba6964421.bindPopup(popup_03f511e12f0d78849f0c8942189ac909)
+        ;
+
+        
+    
+    
+            var marker_b6cbde01fb2df4503a6e87d75201219b = L.marker(
+                [10.398617, -75.521721],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_3c0580f31c6586004b3ef262019befba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b6cbde01fb2df4503a6e87d75201219b.setIcon(icon_3c0580f31c6586004b3ef262019befba);
+        
+    
+        var popup_84511031e7f74ae660c34b740351a14c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_582079b02e279292b9c523de6c0b00d9 = $(`<div id="html_582079b02e279292b9c523de6c0b00d9" style="width: 100.0%; height: 100.0%;">EDS COESCO EL BOSQUE</div>`)[0];
+                popup_84511031e7f74ae660c34b740351a14c.setContent(html_582079b02e279292b9c523de6c0b00d9);
+            
+        
+
+        marker_b6cbde01fb2df4503a6e87d75201219b.bindPopup(popup_84511031e7f74ae660c34b740351a14c)
+        ;
+
+        
+    
+    
+            var marker_8e745214db2ca647686fe21fe04be79b = L.marker(
+                [10.38758, -75.511258],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_36172a7231fd7c5b0a29ae54acfcf5b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e745214db2ca647686fe21fe04be79b.setIcon(icon_36172a7231fd7c5b0a29ae54acfcf5b8);
+        
+    
+        var popup_dcb5981a45befe81fc23ef0aee1fd616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_348c9dc0e9bb076a7d7250b1fdf0ac9d = $(`<div id="html_348c9dc0e9bb076a7d7250b1fdf0ac9d" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIOS COMBUSTIBLES SAN ANTONIO SAS</div>`)[0];
+                popup_dcb5981a45befe81fc23ef0aee1fd616.setContent(html_348c9dc0e9bb076a7d7250b1fdf0ac9d);
+            
+        
+
+        marker_8e745214db2ca647686fe21fe04be79b.bindPopup(popup_dcb5981a45befe81fc23ef0aee1fd616)
+        ;
+
+        
+    
+    
+            var marker_eb1b3b9943b71872767a1058d8b9916f = L.marker(
+                [10.407221, -75.505106],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_9691a3dcaf1274b271936f8b22d82de2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb1b3b9943b71872767a1058d8b9916f.setIcon(icon_9691a3dcaf1274b271936f8b22d82de2);
+        
+    
+        var popup_94d6a7866571d86fb87972edec2116a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f32a3060bb83438df73db9c576bf9cc = $(`<div id="html_3f32a3060bb83438df73db9c576bf9cc" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO TERPEL TESCA</div>`)[0];
+                popup_94d6a7866571d86fb87972edec2116a3.setContent(html_3f32a3060bb83438df73db9c576bf9cc);
+            
+        
+
+        marker_eb1b3b9943b71872767a1058d8b9916f.bindPopup(popup_94d6a7866571d86fb87972edec2116a3)
+        ;
+
+        
+    
+    
+            var marker_54a6d67747ad84e09dda56f9f1b0e2f3 = L.marker(
+                [10.435365, -75.528552],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_5c20de95ce12a2ced1d1540cbd3cd2e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_54a6d67747ad84e09dda56f9f1b0e2f3.setIcon(icon_5c20de95ce12a2ced1d1540cbd3cd2e7);
+        
+    
+        var popup_dc47d339eac7c2980fbde8fa36caae77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f84e08080277a2b5965c08d483ffc184 = $(`<div id="html_f84e08080277a2b5965c08d483ffc184" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO TORICES</div>`)[0];
+                popup_dc47d339eac7c2980fbde8fa36caae77.setContent(html_f84e08080277a2b5965c08d483ffc184);
+            
+        
+
+        marker_54a6d67747ad84e09dda56f9f1b0e2f3.bindPopup(popup_dc47d339eac7c2980fbde8fa36caae77)
+        ;
+
+        
+    
+    
+            var marker_a83cf98fc06e0b2c46386d9275357442 = L.marker(
+                [10.404908, -75.523935],
+                {}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+    
+            var icon_437ef8bb477ae05e7654b8606efc25e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a83cf98fc06e0b2c46386d9275357442.setIcon(icon_437ef8bb477ae05e7654b8606efc25e8);
+        
+    
+        var popup_4194e7903691e1f0cc610322aab6c6bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_706d1514924f3e501af3cee0cb813c77 = $(`<div id="html_706d1514924f3e501af3cee0cb813c77" style="width: 100.0%; height: 100.0%;">ESTACION DE SERVICIO CORAL MARINA SAS</div>`)[0];
+                popup_4194e7903691e1f0cc610322aab6c6bf.setContent(html_706d1514924f3e501af3cee0cb813c77);
+            
+        
+
+        marker_a83cf98fc06e0b2c46386d9275357442.bindPopup(popup_4194e7903691e1f0cc610322aab6c6bf)
+        ;
+
+        
+    
+    
+            var circle_11079b0039daa4f0a5c4e3fb4a01252a = L.circle(
+                [10.4049651, -75.5217883],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4000, "stroke": true, "weight": 3}
+            ).addTo(map_608e3947c6ef6d6ae2f600747d38c3ee);
+        
+</script>
+</html>
